@@ -1,6 +1,6 @@
 # Project Solar System
 
-### This website was created to visualize all the planets in the solar system and some space missions.
+#### This website was created to visualize all the planets in the solar system and some space missions.
 * Designed by using React & CSS3
 
 ## Demonstration
