@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background-image: url('./images/background.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+    height: 100px;
+    margin: 50px;
+    width: 700px;
+}
+
+.header h1 {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.title-planetas, .title-missões {
+  align-items: center;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+  height: 100px;
+  justify-content: center;
+  margin: 50px auto;
+  width: 1500px;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.planet-card p {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.container-planet-card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1300px;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.mission-item {
+  align-items: center;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+  margin: 15px;
+  width: 280px;
+}
