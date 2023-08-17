@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const MissionCard = class extends React.Component {
+class MissionCard extends React.Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
-      <div data-testid="mission-card">
+      <div data-testid="mission-card" className="mission-item">
         <p data-testid="mission-name">{ name }</p>
         <p data-testid="mission-year">{ year }</p>
         <p data-testid="mission-country">{ country }</p>
@@ -13,7 +13,7 @@ const MissionCard = class extends React.Component {
       </div>
     );
   }
-};
+}
 
 MissionCard.propTypes = {
   name: PropTypes.string.isRequired,
