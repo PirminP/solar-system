@@ -14,4 +14,4 @@
 ## Demonstration
 Access: [Click here](https://solar-system-pirminp.vercel.app/)
 
-![To access]()
+![To access](https://github.com/PirminP/solar-system/blob/main/solar-system.png)
